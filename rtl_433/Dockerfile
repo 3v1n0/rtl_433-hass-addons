@@ -39,6 +39,8 @@ COPY --from=builder /build/root/ /
 
 # Run script
 COPY run.sh /
-RUN chmod a+x /run.sh
+RUN echo $(grep $(hostname) /etc/hosts | cut -f1) 9b13b3f4-rtl433 >> /etc/hosts && \
+    echo 9b13b3f4-rtl433 > /etc/hostname && \
+    chmod a+x /run.sh
 
 CMD [ "/run.sh" ]
