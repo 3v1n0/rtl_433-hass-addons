@@ -1,6 +1,6 @@
 {
   "name": "rtl_433-bresser-fix",
-  "version": "0.3.2.2",
+  "version": "0.3.2.3",
   "slug": "rtl433-bresser-fix",
   "description": "Receive wireless sensor data via an SDR dongle and rtl_433",
   "url": "https://github.com/3v1n0/rtl_433-hass-addons/tree/main/rtl_433",

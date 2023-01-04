@@ -1,5 +1,7 @@
 #!/usr/bin/with-contenv bashio
 
+export HOSTNAME=9b13b3f4-rtl433
+
 conf_directory="/config/rtl_433"
 
 if bashio::services.available "mqtt"; then
